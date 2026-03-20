@@ -8,11 +8,11 @@ import pytz
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import StandardScaler
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+import os
 
-# ==== KEYS ====
-DISCORD_TOKEN = "DISCORD_TOKEN"
-API_KEY = "your_alpaca_key"
-SECRET_KEY = "your_secret"
+DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
+API_KEY = os.getenv("API_KEY")
+SECRET_KEY = os.getenv("SECRET_KEY")
 BASE_URL = "https://paper-api.alpaca.markets"
 
 # ==== DISCORD ====
