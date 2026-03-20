@@ -10,9 +10,9 @@ from sklearn.preprocessing import StandardScaler
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 # ==== KEYS ====
-DISCORD_TOKEN = "MTQ4NDU2MTQ2OTczMDMyODc2Nw.G9cCdz.wa7bkwZfbgn-zGoGha8t11iuaKtaeF91ZzC-mo"
-API_KEY = "PKEMC3YRDAYQDJLJNCKTMOU7HJ"
-SECRET_KEY = "7zY1yseipvXuoRoTAJYsGfVzTj6Xur6qXkduMoYKJGnK"
+DISCORD_TOKEN = "DISCORD_TOKEN"
+API_KEY = "your_alpaca_key"
+SECRET_KEY = "your_secret"
 BASE_URL = "https://paper-api.alpaca.markets"
 
 # ==== DISCORD ====
